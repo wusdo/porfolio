@@ -4,12 +4,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "build": "next build",
-    "dev": "next dev",
-    "lint": "eslint .",
-    "start": "next start"
+     "dev": "next dev",
+     "build": "next build",
+     "lint": "eslint .",
+      "start": "next start",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
